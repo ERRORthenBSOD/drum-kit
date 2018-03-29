@@ -21,47 +21,28 @@ body,html {
 
 .keys {
   display: flex;
-  min-height: 100vh;
-  /*flex-direction: column;*/
-  align-items: stretch;
+  /*height: 110vh;*/
+  height: 99vh;
+  width: 99vw;
+  flex-direction: column;
+  /*align-items: stretch;*/
   /*align-items: baseline;*/
-  justify-content: center;
+  align-items: center;
+  /*justify-content: center;*/
   flex-wrap: wrap;
-}
-
-.divv {
-  display: flex;
-  /*min-height: 100vh;*/
-  /*flex-direction: column;*/
-  align-items: last-baseline;
-  flex-direction: row;
-}
-
-.keyy {
-  border: .4rem solid red;
-  border-radius: .5rem;
-  margin: 1rem;
-  font-size: 1.5rem;
-  padding: 1rem .5rem;
-  transition: all .09s ease;
-  width: 10rem;
-  text-align: center;
-  color: white;
-  background: rgba(0,0,0,0.4);
-  text-shadow: 0 0 .5rem black;
 }
 
 
 .key {
   border: .4rem solid red;
-  border-radius: .5rem;
+  border-radius: 2rem;
   margin: 1rem;
   font-size: 1.5rem;
   padding: 1rem .5rem;
   transition: all .09s ease;
   /*width: 10rem;*/
-  width: 30rem;
-  height: 30rem;
+  width: 33.3333%;
+  height: 10%;
   text-align: center;
   color: white;
   background: rgba(0,0,0,0.4);
@@ -70,14 +51,16 @@ body,html {
 
 .loop {
   border: .4rem solid #1373ff;
-  border-radius: .5rem;
+  border-radius: 6rem;
   margin: 1rem;
   font-size: 1.5rem;
-  margin-left: 0rem;
+  padding: 3rem .5rem;
+  /*margin-left: 0rem;*/
   transition: all .09s ease;
   /*width: 10rem;*/
-  width: 33%;
-  height: 15rem;
+  width: 33.3333%;
+  /*width: 20rem;*/
+  height: 10%;
   text-align: center;
   color: white;
   background: rgba(0,0,0,0.4);
@@ -95,15 +78,18 @@ body,html {
 
 kbd {
   display: inline-flex;
-  font-size: 4rem;
-  align-items: center;
+  font-size: 6rem;
+  text-align: center;
+  /*align-items: center;*/
+  /*padding-top: 1rem;*/
   justify-content: center;
-  height: 20vh
+  /*height: 100vh*/
 }
 
 .sound {
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   text-transform: uppercase;
   letter-spacing: .1rem;
   color: #ffc600;
 }
+
